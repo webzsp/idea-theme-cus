@@ -1,0 +1,21 @@
+{
+    "name": "idea-theme-cus",
+    "displayName": "idea-theme-cus",
+    "description": "idea 主题",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "idea-theme-cus",
+                "uiTheme": "vs",
+                "path": "./themes/idea-theme-cus-color-theme.json"
+            }
+        ]
+    }
+}
